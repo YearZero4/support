@@ -66,7 +66,7 @@ email: emailx,
 msg: msgx
 };
 
-fetch('http://localhost:9011/msg', {
+fetch('https://xcrud-2.onrender.com/msg', {
 method: 'POST', 
 headers: {
 'Content-Type': 'application/json' 
